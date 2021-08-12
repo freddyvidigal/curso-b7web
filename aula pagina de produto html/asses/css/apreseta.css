@@ -1,0 +1,116 @@
+body {
+   margin: 0;
+   border: 0;
+   padding:0;
+   background-color:#cccccccc
+  
+
+}
+.container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction:row;
+        background-image: url(../image/chicaras.jpg);
+        height: 800px;
+        background-size: 100% 100%;         
+        
+        
+       
+       
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;   
+  text-shadow: 3px 3px blue; 
+  color: aqua; 
+  font-family:'Arial Narrow Bold'; 
+}
+
+
+.cima, .meio, .baixo {
+        text-align: center;
+        font-family:'Arial Narrow Bold';
+        font-size: 30px;
+        color: yellow;
+        
+
+}
+a {
+        text-decoration: none;
+        color: indianred;
+}
+
+
+a:visited {
+        color: green;
+}
+
+.cima {
+        
+        background-color: rgb(17, 150, 202);
+        width: 350px;
+        height: 80px;
+        align-self: flex-start;
+        margin: 5px;
+        border: 3px solid blue;
+
+
+}
+.meio {
+       
+       
+        
+        flex-wrap: nowrap;
+}
+
+.baixo {
+        margin: 5px;
+        border: 3px solid blue;
+        align-self: flex-end;
+        width: 350px;
+        height: 80px;
+        background-color: rgb(17, 150, 202);
+}
+.freddy {
+        display:block;
+        border-top: 3px solid blue;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+        text-align: center;
+        color: indigo;
+       background-color: green;
+        
+    }
+@media only screen and (max-width:900px) {
+
+.cima, .meio, .baixo {
+
+        font-size: 25px;
+}
+
+}
+
+@media only screen and (max-width:600px) {
+
+.cima, .meio, .baixo {
+        
+         font-size: 20px;
+}
+        
+}
+
+@media only screen and (max-width:457px) {
+
+.cima, .meio, .baixo {
+                
+      font-size: 15px;
+}
+ }
+@media only screen and (min-width:331px) and (max-width:331px) {
+.cima, .meio, .baixo {
+                
+                font-size: 10px;
+}
+}

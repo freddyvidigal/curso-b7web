@@ -1,0 +1,91 @@
+* {
+    font-family: arial;
+}
+body {
+    margin:0;
+    padding:0;
+   
+}
+h1 {
+   display: flex;
+   padding-top: 10px;
+   color: red;
+   font-size: 50px;
+   justify-content:center;
+   text-shadow: 5px 5px 5px rebeccapurple;
+}
+h3 {
+    display: flex;
+    text-align: center;
+    color: indigo;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px red;
+}
+h2 {
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px rgb(241, 165, 65);
+}
+header {
+       
+    background-image:url('../image/20150829_125038.jpg');
+    background-position:center;
+    background-size:cover;
+    height:200px;
+}
+.tp {
+    display: flex;
+    background-color: #2d1041;
+    justify-content: space-between;
+
+}
+.tp1, .tp2 {
+    text-align: justify;
+    word-spacing:  3px;
+    line-height: 30px;             
+    color: green;
+}
+.tania {
+    text-align: center;
+    font-size: 30px;  
+    display: flex;
+    margin:5px;
+    background-position:center;
+    border: solid 3px blue;
+    padding-bottom: 10px;
+    flex-direction: column;
+    color: white;
+    background-color: green;
+    
+}
+.nota h1 {
+    margin: 0;
+    background-color: green;
+    color: rgb(44, 3, 3) ;
+    text-shadow: 5px 5px 5px yellow;
+}
+.fim {
+    display:flex;
+    margin: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: greenyellow;
+   padding-bottom: 3px;
+   
+    
+}
+
+   
+.freddy {
+    display:block;
+    border-top: 3px solid blue;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    color: indigo;
+   background-color: green;
+    
+}
+
+    

@@ -1,0 +1,19 @@
+
+.aviso{
+    width: 180px;
+    position:fixed;
+    margin-left: -42px;
+    margin-top: 38px;
+    text-align: center;
+    background-color: blue;
+    border: 1px solid white;
+    box-shadow: 0px 0 1px 3px rgb(44, 9, 172);
+    transform: rotate(-45deg);
+  
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}

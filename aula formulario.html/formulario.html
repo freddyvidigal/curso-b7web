@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8" />
+        <title>Pagina de formulário</title>
+        <link rel="stylesheet" type="text/css" href="asses/css/form.css"/>
+    </head>
+    <body>
+        <h1>Escola virtual</h1>
+    <form action="" method="POST"> 
+        
+        <h2>Formulário de pré-Matricula</h2>
+        <br/>
+            <div class="dp">
+                <h3>DADOS PESSOAIS:</h3>
+                <p>NOME DO ALUNO: <input type="text"required name="text" value="" size="25" placeholder="nome aluno" maxlength="40"/>
+                </p>
+                <p>DATA DE NASCIMENTO: <input type="date" name="text" value="" size="30" />
+                </p>
+                <p>NOME DA MÃE: <input type="text" required name="text" value="" size="25" placeholder="nome mãe" />
+                </p>
+                <p>NOME DO PAI: <input type="text" name="text" value="" size="26" placeholder="nome pai" />
+                </p>
+                <p>TELEFONE:DDD (<input type="tel"required size="1"/>) TEL:<input type="tel" size="10"/> 
+                </p>
+                <p>EMAIL: <input type="email"required name="email" value="" size="33"/>
+                </p>
+            </div>
+            <br/>
+            <div>
+                <h3>INFORMAÇÕES DE MATRICULA</h3>
+               <div class="im"> <P>SERIE:
+                        <select name="serie" id="">
+                            <option value="valor1">1ª serie</option>
+                            <option value="valor2">2ª serie</option>
+                            <option value="valor3">3ª serie</option>
+                            <option value="valor4">4ª serie</option>
+                            <option value="valor5">5ª serie</option>
+                            <option value="valor6">6ª serie</option>
+                            <option value="valor7">7ª serie</option>
+                            <option value="valor8">8ª serie</option>
+                            <option value="valor9">9ª serie</option>
+                            <option value="valor10">1º ano 2º grau</option>
+                            <option value="valor11">2º ano 2º grau</option>
+                            <option value="valor12">3º ano 2º grau</option>
+                            
+                        </select></P></div>
+
+               <div><br/> 
+                <p>TURNO:
+                    <br/>
+                       <INput type="radio" name="MTN" value="manhã"/>manhã
+                <br/>
+                <INput type="radio" name="MTN" value="tarde"/>Tarde
+                <br/>
+                
+                <div class="ae">                  
+                <P>ATIVIDADE EXTRACURRICULARES:
+                    <BR/>
+                    <input type="checkbox" name="informática"/>Informática<br/>
+                    <input type="checkbox" name="futebol"/>futebol<br/>
+                    <input type="checkbox" name="música"/>Muzica<br/>
+                    <input type="checkbox" name="pintura"/>Pintura<br/>
+                    <input type="checkbox" name="Natação"/>Natação<br/>
+                    <input type="checkbox" name="balé"/>Balé<br/>
+                    
+                </P></div>
+            </div>
+            <input type="submit" value="Enviar Cadastro"/>
+            <input type="reset" value="limpar campos"/>
+
+        
+
+        
+    </form>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+* {
+    font-family: arial;
+}
+body {
+    margin:0;
+    padding:0;
+    background-color: sandybrown;
+    
+}
+
+form {
+    width: 450px;
+    border: 5px double red;
+    margin-left: 40px;
+    background-color: cornsilk;
+    padding:  5px;
+    
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.dp {
+    display: block;
+    flex-direction: column;
+    text-justify: distribute;
+
+}
+.im {
+    display: flex;
+    float: left;
+    align-items: center;
+    margin:20px;
+    
+}
+.ae {
+    display: block;
+    margin: 5px;
+    padding: 5px;
+}
+p {
+    margin: 10px;
+}
